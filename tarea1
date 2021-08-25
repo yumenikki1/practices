@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main () {
+int tag=0;
+int guion=0;
+int prueba = 0;
+char c;
+while ((c = getchar()) != EOF) {
+    if (c=='<'){
+            tag=1;}
+    if (c=='>'){
+            tag=0;
+    }
+
+    if (tag == 1 && ((c == 'h')||(c=='s')) && prueba == 0){
+            guion = 1;
+    }
+    if (prueba ==1 && ((c == 'h')||(c=='s'))){
+        prueba = 0;
+    }
+
+           if (tag == 0 && c != '>') {
+                 if (c == ' ' && guion == 1){
+            putchar('_');} else{
+            putchar(c);}
+    }
+    if (guion == 1 && tag==1 && c == '/'){
+                guion = 0;
+                prueba = 1;
+            }
+}
+}
