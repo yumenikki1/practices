@@ -11,14 +11,12 @@ while ((c = getchar()) != EOF) {
     if (c=='>'){
             tag=0;
     }
-
     if (tag == 1 && ((c == 'h')||(c=='s')) && prueba == 0){
             guion = 1;
     }
     if (prueba ==1 && ((c == 'h')||(c=='s'))){
         prueba = 0;
     }
-
            if (tag == 0 && c != '>') {
                  if (c == ' ' && guion == 1){
             putchar('_');} else{
