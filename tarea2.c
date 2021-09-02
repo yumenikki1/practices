@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define LEN 10
+#define LEN 10  //Longitud de caracteres en binario
 
 int primo(int i) {
   int d;
@@ -18,7 +18,7 @@ void binarioinvertido(int a, int m){
     }
 }
 int main() {
-    int k = 10;
+    int k = 10;  // cantidad de numeros primos a imprimir en binario
     int i;
     int r=1;
     for (i = 1; r <= k; i++){
