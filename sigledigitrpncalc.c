@@ -53,7 +53,7 @@ s[++top] = a;
 continue;
 }
 if (ispunct(str[n])){
-        if (top-1 == -1){
+        if (top-1 < 0){
             printf("syntax error\n");
             succ = 1;
         }
