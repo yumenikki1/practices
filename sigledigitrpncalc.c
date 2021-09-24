@@ -13,8 +13,7 @@ int s[strlimit];
 char str[strlimit];
 int n = -1, top = -1, o, a, e, succ;
 a = o = e =  succ = 0;
-int oper = 0;
-int nums = 0;
+int oper = 0, nums = 0;
 while (1){
 // ASK FOR INPUT
 if (e == 0) {
