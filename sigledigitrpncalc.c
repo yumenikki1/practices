@@ -53,9 +53,10 @@ s[++top] = a;
 continue;
 }
 if (ispunct(str[n])){
-        if (top-1 < 0){
+        if (top-1 < 0 && succ == 0){
             printf("syntax error\n");
             succ = 1;
+            continue;
         }
 switch (str[n]){
 case '+':
