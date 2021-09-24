@@ -53,6 +53,10 @@ s[++top] = a;
 continue;
 }
 if (ispunct(str[n])){
+        if (top-1 == -1){
+            printf("syntax error\n");
+            succ = 1;
+        }
 switch (str[n]){
 case '+':
 o = s[top -1] + s[top];
