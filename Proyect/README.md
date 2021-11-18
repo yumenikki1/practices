@@ -3,10 +3,7 @@ This is my version of the classic game "Space Invaders". In this game you have t
 
 ### Libraries
 I used these libraries in the code
-#include <stdio.h>
-#include <stdlib.h>
-#include <conio.h>
-#include <windows.h>
+![libraries](https://github.com/[yumenikki1]/[practices]/Proyect/images/library capture.PNG?raw=true)
 
 # Structure
 The whole game happens in the int main function.
