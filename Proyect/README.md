@@ -1,4 +1,4 @@
-# Space Invaders ASCII version.
+# Space Invaders.
 This is my version of the classic game "Space Invaders". In this game you have to shoot the enemies at the top of the screen, the more enemies you kill the higher your score gets. Also every 10 frames your score is reduced by one. So the less time you take, the less points you lose.
 
 ### Libraries
