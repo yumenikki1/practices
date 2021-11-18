@@ -19,6 +19,8 @@ I used the kbhit() function in the conio.h library to control the spaceship. So 
 Using the Spacebar will spawn a laser above the spaceship and this will go a character upward everyframe in the world.
 Every character in the world has its own behaviour that updates every frame.
 
+I used the Sleep() function in the windows.h library to animate some things in order to have a better experience.
+
 ![spacecapture](https://user-images.githubusercontent.com/88511121/142474498-5222bbd8-fef5-4ca6-9c28-d8b1247e8216.PNG)
 
 # Video
