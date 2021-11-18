@@ -3,7 +3,7 @@ This is my version of the classic game "Space Invaders". In this game you have t
 
 ### Libraries
 I used these libraries in the code
-![libraries](https://github.com/[yumenikki1]/[practices]/Proyect/images/library capture.PNG?raw=true)
+![libraries](https://github.com/[yumenikki1]/[practices]/Proyect/images/library_capture.PNG?raw=true)
 
 # Structure
 The whole game happens in the int main function.
