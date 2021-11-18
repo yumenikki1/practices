@@ -9,10 +9,17 @@ I used these libraries in the code
 # Structure
 The whole game happens in the int main function.
 First I print the world that is a two dimensional array.
+Then the characters in the world will interact as intended in order to play.
 
 I made a subroutine for the healthbar that prints the hearts the number of lives times in the screen every frame.
 
 # Functionality
-I used the kbhit() function in the conio.h library to control the spaceship. So when you press the w key, the spaceship moves a character higher in the y axis; if you press the "s" key, the spaceship moves a character lower in the y axis; if you press the "a" key, you move a character to the left; and if you press the "d" key you move a character tho the right.
+I used the kbhit() function in the conio.h library to control the spaceship. So when you press the "w" key, the spaceship moves a character higher in the y axis; if you press the "s" key, the spaceship moves a character lower in the y axis; if you press the "a" key, you move a character to the left; and if you press the "d" key you move a character tho the right.
+
 Using the Spacebar will spawn a laser above the spaceship ant this will go a characer upward everyframe.
 Every character in the world has its own behaviour that updates every frame.
+
+![spacecapture](https://user-images.githubusercontent.com/88511121/142474498-5222bbd8-fef5-4ca6-9c28-d8b1247e8216.PNG)
+
+#Video
+[YouTube](https://www.youtube.com/watch?v=i-9VAsmZbwU)
